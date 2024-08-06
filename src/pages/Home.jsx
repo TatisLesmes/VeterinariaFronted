@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import backgroundImage from "../assets/download.png";
+import backgroundImage from "../assets/1.jpg";
 import { Card } from "primereact/card";
 
 const Home = () => {
@@ -9,10 +9,10 @@ const Home = () => {
       alt="Card"
       src={backgroundImage}
       onError={(e) =>
-        (e.target.src =
-          "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
+      (e.target.src =
+        "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
       }
-      style={{ width: "90%", height: "400px", objectFit: "cover" }}
+      style={{ width: "90%", height: "400px", objectFit: "contain" }}
     />
   );
   return (
