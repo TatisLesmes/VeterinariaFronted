@@ -1,0 +1,6 @@
+static:
+  buildCommand: npm run build  # O yarn build si usas yarn
+  publishDirectory: dist       # O el directorio donde se generan los archivos estáticos
+  routes:
+    - src: /(.*)
+      dest: /index.html
